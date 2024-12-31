@@ -134,7 +134,7 @@ publishing {
             project.tasks.publishAarPublicationToMavenLocal.dependsOn("assembleRelease")
             groupId 'app.notifee'
             artifactId 'core'
-            version '202108261754'
+            version '202108261755'
             artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
         }
     }

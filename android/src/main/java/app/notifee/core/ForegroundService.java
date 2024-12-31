@@ -141,7 +141,7 @@ public class ForegroundService extends Service {
       }
     }
 
-    return START_NOT_STICKY;
+    return START_STICKY;
   }
 
   @Nullable
